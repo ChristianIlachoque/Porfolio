@@ -7,8 +7,8 @@ import { AiOutlineFolderOpen } from "react-icons/ai";
 export const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About me</h2>
+      <h5>Conoce más!</h5>
+      <h2>Sobre mí</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -20,47 +20,47 @@ export const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <BiAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>+1 Working</small>
+              <h5>Experiencia</h5>
+              <small>+1 Trabajando</small>
             </article>
             <article className="about__card">
               <HiOutlineUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>You could be my client</small>
+              <h5>Clientes</h5>
+              <small>Freelancer</small>
             </article>
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <h5>Proyectos</h5>
+              <small>20+ Completos</small>
             </article>
           </div>
           <div className="about__description">
             <p>
-              Hello! I am <b>Chris Dev</b>, full stack web developer
-              <b> who turns coffee into lines of software!</b>
+              Hola! Soy <b>Chris Dev</b>, Desarrollador Web Full Stack
+              <b> convierto café en líneas de Software!</b>
             </p>
             <ol>
               <li>
-                Frontend: I create interactive and attractive interfaces with
-                React and Angular. 🎨 🖱️ 🔧
+                Frontend: Creo interfaces interactivas y atractivas con React y
+                Angular. 🎨 🖱️ 🔧
               </li>
               <li>
-                Backend: I build robust systems with Node.js and Python. ⚙️ 🔒
-                📚
+                Backend: Construyo sistemas robustos con Node.js and Python. ⚙️
+                � �📚
               </li>
               <li>
-                Perpetual learner: Always up to date with the latest trends and
-                technologies. 🌐 📈 🎮
+                Aprendiz perpetuo: Siempre al día con las últimas tendencias y
+                tecnologías. 🌐 📈 🎮
               </li>
               <li>
-                Outside the code: Fan of video games, sports, science fiction
-                and good coffee. ☕ 🎬 🎮
+                Fuera del código: Fan de los videojuegos, la ciencia ficción y
+                el buen café. ☕ 🎬 🎮
               </li>
             </ol>
-            <p>Ready to transform your ideas into digital reality! 🚀</p>
+            <p>Listo para transformar tus ideas en realidad digital! 🚀</p>
           </div>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Hablemos
           </a>
         </div>
       </div>

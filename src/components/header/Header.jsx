@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5>Hola, soy</h5>
         <h1>Chris Dev</h1>
         <h5 className="text-light">Full Stack Developer</h5>
         <CTA />
@@ -18,7 +18,7 @@ export const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          Hacia abajo!
         </a>
       </div>
     </header>

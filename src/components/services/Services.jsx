@@ -4,95 +4,100 @@ import { BiCheck } from "react-icons/bi";
 export const Services = () => {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>Lo que ofrezco</h5>
+      <h2>Servicios</h2>
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Web Developmet</h3>
+            <h3>Desarrollo de Sitios Web</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creation of static and dynamic websites.</p>
+              <p>Creación de sitios web estáticos y dinámicos.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Development of corporate and company websites.</p>
+              <p>Desarrollo de sitios web corporativos y de empresa.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Development of online portfolios for professionals and artists.
+                Desarrollo de portafolios en línea para profesionales y
+                artistas.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Development of blogs and forums.</p>
+              <p>Desarrollo de blogs y foros.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Development of landing pages and microsites.</p>
+              <p>Desarrollo de landing pages y micrositios.</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Appllication Development</h3>
+            <h3>Desarrollo de Aplicaciones Web</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Web applications such as management, reservation systems.</p>
+              <p>
+                Desarrollo de aplicaciones web progresivas (PWA) para una
+                experiencia de usuario mejorada.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Development of online stores and e-commerce.</p>
+              <p>Creación de aplicaciones web para diversos propósitos.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Development of administration panels for applications and
-                websites.
+                Integración de sistemas de pago y pasarelas de pago en
+                aplicaciones web de comercio electrónico.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Development of secure authentication and authorization systems.
+                Desarrollo de sistemas de autenticación y autorización seguros
+                para aplicaciones web.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Development of progressive web applications (PWA).</p>
+              <p>Implementación de funcionalidades de geolocalización.</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Optimization and Maintenance</h3>
+            <h3>Optimización y Mantenimiento</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Optimization of performance and loading speed.</p>
+              <p>Optimización de rendimiento y velocidad de carga.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Update software and plugin versions.</p>
+              <p>Actualización de versiones de software y plugins.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Regular maintenance to ensure the security and proper
-                functioning of the website.
+                Mantenimiento regular para garantizar la seguridad y el correcto
+                funcionamiento del sitio web.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Redesign and migration of websites.</p>
+              <p>Rediseño y migración de sitios web.</p>
             </li>
           </ul>
         </article>

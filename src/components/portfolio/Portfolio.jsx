@@ -54,8 +54,8 @@ const data = [
 export const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Mis trabajos recientes</h5>
+      <h2>Portafolio</h2>
 
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => (
@@ -69,7 +69,7 @@ export const Portfolio = () => {
                 Github
               </a>
               <a href={demo} className="btn btn-primary" target="_blank">
-                Live Demo
+                Ver Demo
               </a>
             </div>
           </article>
