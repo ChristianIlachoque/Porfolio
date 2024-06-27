@@ -34,7 +34,7 @@ export const Nav = () => {
       >
         <AiOutlineBook />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
@@ -47,7 +47,7 @@ export const Nav = () => {
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <FaTasks />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}

@@ -45,7 +45,7 @@ export const About = () => {
                 Angular. 🎨 🖱️ 🔧
               </li>
               <li>
-                Backend: Construyo sistemas robustos con Node.js and Python. ⚙️
+                Backend: Construyo sistemas robustos con Java, Node.js and Python. ⚙️
                 � �📚
               </li>
               <li>
